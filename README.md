@@ -2,7 +2,7 @@
 This repo is the accompaniment of a final project for the class L645: Advance Natural Language Processing. 
 
 # Overview
-The code are organized according to the research question (RQ) it is written to answer. e.g., `rq1.py` and files prepended by `rq1` answers RQ1. For more details, refer to the written final report.
+The code are organized according to the research question (RQ) it is written to answer. e.g., `scripts/rq1.py` and files prepended by `rq1` answers RQ1. For more details, refer to the written final report.
   - RQ1: Can we replicate results from the original paper by just using word and char n-gram features for hate-speech classification?
   - RQ2: Is sentiment useful for n-gram-based hate-speech classification?
   - RQ3: Would context-dependent embedding features improve hate-speech detection?
