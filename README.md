@@ -13,6 +13,8 @@ The code are organized according to the research question (RQ) it is written to 
 
 `data/annotated` contains our annotated data. This dataset consists of tweets collected using the Twitter API from 07-01-2021 to 11-29-2021 using a list of hashtags adopted from Waseem & Hovy's paper. 
 
+The dataframe of tweets and corresponding labels can be found in `data/annotated/FINAL_cleaned_annotated.parquet`. The list of cleaned text and labels can be found in `data/annotated/FINAL_X.txt` and `data/annotated/FINAL_Y.txt`
+
 ## Setup & requirements 
 For the tweet cleaning code to run properly, make sure you've already installed the tweet-preprocess package: https://pypi.org/project/tweet-preprocessor
 
