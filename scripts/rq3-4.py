@@ -193,10 +193,10 @@ def main():
     path_result = './../results/'
     test_path = f'{path_data}waseem/test.txt'
     test_path_label = f'{path_data}waseem/testGold.txt'
-    train_path = f'{path_data}waseem/wtrain.txt'
-    train_path_label = f'{path_data}waseem/rainGold.txt'
-    annotated_path = f'{path_data}annotated.txt'
-    annotated_path_label =  f'{path_data}waseem/labels.txt'
+    train_path = f'{path_data}waseem/train.txt'
+    train_path_label = f'{path_data}waseem/trainGold.txt'
+    annotated_path = f'{path_data}annotated/FINAL_X.txt'
+    annotated_path_label =  f'{path_data}annotated/FINAL_Y.txt'
 
     rows = [[test_path, test_path_label, 'test'],
             [train_path, train_path_label, 'train'],
